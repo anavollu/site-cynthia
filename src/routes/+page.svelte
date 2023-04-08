@@ -5,6 +5,7 @@
 	import menuIcon from '$lib/assets/menu-icon.svg';
 	import imageHome from '$lib/assets/cynthia-home.jpeg';
 	import imageAbout from '$lib/assets/cynthia-about.jpg';
+	import ServicesCard from './services-card.svelte';
 
 	export let data: PageData;
 	const header = data.data.header;
@@ -59,7 +60,22 @@
 			</div>
 		</div>
 	</section>
-	<section id="services">serviços</section>
+	<section id="services">
+		<div class="h-16 bg-pink-30" />
+		<div class="px-6 pb-[60px] pt-[46px]">
+			<div class="flex flex-col gap-2">
+				<p class="uppercase leading-[19.5px] tracking-wide5 text-darkgreen">{services.subtitle}</p>
+				<p class="text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
+					{services.title}
+				</p>
+				<p class="text-sm leading-[17.07px] text-gray">{services.description}</p>
+			</div>
+			<div class="mt-10">
+				<ServicesCard items={services.servicesItems} />
+			</div>
+		</div>
+		<div class="h-16 bg-pink-30" />
+	</section>
 	<section id="works">meus trabalhos</section>
 	<section id="contact">contato</section>
 	<div id="footer">footer</div>

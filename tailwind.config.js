@@ -13,6 +13,7 @@ module.exports = {
 			crimsonpro: ['Crimson Pro', 'serif']
 		},
 		colors: {
+			transparent: 'transparent',
 			white: '#FFFFFF',
 			black: '#000000',
 			lightgray: '#E5E5E5',
@@ -23,11 +24,13 @@ module.exports = {
 				pastel: '#E3D7DD',
 				7: '#FBEFF5',
 				30: '#F0BAD3',
-				50: '#DB5E9A'
+				50: '#DB5E9A',
+				100: '#9A172B'
 			}
 		},
 		letterSpacing: {
 			wide: '.02em',
+			wide5: '.05em',
 			wider: '.1em'
 		},
 		extend: {}
