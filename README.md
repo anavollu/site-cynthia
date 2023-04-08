@@ -42,4 +42,4 @@ Mobile (print da aplicação)
 
 ## <img src="https://cdn-icons-png.flaticon.com/24/5050/5050273.png" width="20" /> Deploy na Vercel
 
-- [Link da aplicação](https://site-cynthia.vercel.app/)
+- [Link da aplicação](https://cynthia-vollu.vercel.app/)
