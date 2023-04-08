@@ -1,12 +1,58 @@
-<script>
+<script lang="ts">
+	import type { PageData } from './$types';
+	import '../app.css';
+
+	import menuIcon from '$lib/assets/menu-icon.svg';
+	import imageHome from '$lib/assets/cynthia-home.jpeg';
+
+	export let data: PageData;
+	const header = data.data.header;
+	const home = data.data.home;
+	const about = data.data.about;
+	const services = data.data.services;
+	const works = data.data.works;
+	const contact = data.data.contact;
+	const footer = data.data.footer;
 </script>
 
-<main>
-	<div>header</div>
-	<section>home</section>
-	<section>sobre mim</section>
-	<section>serviços</section>
-	<section>meus trabalhos</section>
-	<section>contato</section>
-	<div>footer</div>
+<main class="font-montserrat">
+	<div
+		id="header"
+		class="sticky top-0 z-10 grid grid-cols-[30px_1fr_30px] items-center bg-pink-7 px-6 py-5"
+	>
+		<img class="left-[27px] h-[30px] w-[30px]" src={menuIcon} alt="Ícone de menu" />
+		<p class="text-center font-crimsonpro text-[32px] leading-[43.65px] tracking-wider">
+			{header.title}
+		</p>
+	</div>
+	<section id="home" class="flex flex-col items-center gap-6 bg-pink-7 px-6 py-10">
+		<p
+			class="bg-[url('/src/lib/assets/paint.svg')] bg-center bg-no-repeat px-7 py-1 text-2xl font-bold uppercase leading-[29.26px] tracking-wide"
+		>
+			{home.title}
+		</p>
+		<img
+			class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover"
+			src={imageHome}
+			alt="Imagem da Cynthia"
+		/>
+		<p>{home.description}</p>
+		<button
+			class="rounded-[15px] bg-darkgreen px-[25px] py-4 text-sm font-semibold leading-[17.07px] text-white"
+			>{home.button}</button
+		>
+	</section>
+	<section id="about" class="px-8 py-14">
+		<div
+			class="flex flex-col gap-9 bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+		"
+		>
+			<p class="text-xl font-semibold leading-[24.48px]">{about.title}</p>
+			<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
+		</div>
+	</section>
+	<section id="services">serviços</section>
+	<section id="works">meus trabalhos</section>
+	<section id="contact">contato</section>
+	<div id="footer">footer</div>
 </main>

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		screens: {
 			md: '768px',
@@ -17,11 +17,18 @@ module.exports = {
 			black: '#000000',
 			lightgray: '#E5E5E5',
 			gray: '#535151',
-			darkgreen: '0C433B',
-			pink: '#CC186E',
-			opacitypink7: 'rgba(204, 24, 110, 0.07)',
-			opacitypink30: 'rgba(204, 24, 110, 0.3)',
-			opacitypink50: 'rgba(204, 24, 110, 0.5)'
+			darkgreen: '#0C433B',
+			pink: {
+				default: '#CC186E',
+				pastel: '#E3D7DD',
+				7: '#FBEFF5',
+				30: '#F0BAD3',
+				50: '#DB5E9A'
+			}
+		},
+		letterSpacing: {
+			wide: '.02em',
+			wider: '.1em'
 		},
 		extend: {}
 	},
