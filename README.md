@@ -1,38 +1,40 @@
-# create-svelte
+# Currículo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## <img src="https://cdn-icons-png.flaticon.com/24/595/595067.png" width="20" /> Em andamento <img src="https://cdn-icons-png.flaticon.com/24/595/595067.png" width="20" />
 
-## Creating a project
+</br>
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Site profissional para maquiadora Cynthia Vollu
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+</br>
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## <img src="https://cdn-icons-png.flaticon.com/24/2666/2666505.png" width="20" /> Checklist
 
-## Developing
+- [ ] Fazer header
+- [ ] Fazer home
+- [ ] Fazer sobre mim
+- [ ] Fazer serviços
+- [ ] Fazer meus trabalhos
+- [ ] Fazer contato
+- [ ] Fazer footer
+- [ ] Fazer responsividade desktop/tablet
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+</br>
 
-```bash
-npm run dev
+## <img src="https://cdn-icons-png.flaticon.com/24/2276/2276313.png" width="20" /> Tecnologias
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+<img src="https://svelte.dev/favicon.png" width="20"> Sveltekit
+</br>
+<img src="https://avatars.githubusercontent.com/u/67109815?s=280&v=4" width="20"> Tailwind
 
-## Building
+</br>
 
-To create a production version of your app:
+## <img src="https://cdn-icons-png.flaticon.com/24/2724/2724885.png" width="20" /> Layout
 
-```bash
-npm run build
-```
+Layout pode ser encontrado no [Figma](https://www.figma.com/file/9lUb0kqCM9ijs5DLALz5sl/Site-Cynthia-Vollu?node-id=45%3A18&t=NMsaNu5T9fbAPkTG-1)
 
-You can preview the production build with `npm run preview`.
+</br>
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## <img src="https://cdn-icons-png.flaticon.com/24/5050/5050273.png" width="20" /> Deploy na Vercel
+
+- [Link da aplicação](https://site-cynthia.vercel.app/)
