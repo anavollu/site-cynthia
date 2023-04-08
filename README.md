@@ -12,7 +12,7 @@
 
 - [ ] Fazer header
 - [ ] Fazer home
-- [ ] Fazer sobre mim
+- [x] Fazer sobre mim
 - [ ] Fazer serviços
 - [ ] Fazer meus trabalhos
 - [ ] Fazer contato
@@ -32,6 +32,11 @@
 ## <img src="https://cdn-icons-png.flaticon.com/24/2724/2724885.png" width="20" /> Layout
 
 Layout pode ser encontrado no [Figma](https://www.figma.com/file/9lUb0kqCM9ijs5DLALz5sl/Site-Cynthia-Vollu?node-id=45%3A18&t=NMsaNu5T9fbAPkTG-1)
+</br>
+
+Mobile (print da aplicação)
+</br>
+<img src="https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/pagina_mobile.png" width="200">
 
 </br>
 
