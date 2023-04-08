@@ -4,6 +4,7 @@
 
 	import menuIcon from '$lib/assets/menu-icon.svg';
 	import imageHome from '$lib/assets/cynthia-home.jpeg';
+	import imageAbout from '$lib/assets/cynthia-about.jpg';
 
 	export let data: PageData;
 	const header = data.data.header;
@@ -44,11 +45,18 @@
 	</section>
 	<section id="about" class="px-8 py-14">
 		<div
-			class="flex flex-col gap-9 bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+			class="flex flex-col gap-9 bg-white px-5 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
 		"
 		>
 			<p class="text-xl font-semibold leading-[24.48px]">{about.title}</p>
 			<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
+			<div class="px-10">
+				<img
+					class="max-h-[527px] min-h-[212px] w-auto self-center rounded-[5px] object-cover"
+					src={imageAbout}
+					alt="Imagem da Cynthia"
+				/>
+			</div>
 		</div>
 	</section>
 	<section id="services">serviços</section>
