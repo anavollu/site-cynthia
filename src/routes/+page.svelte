@@ -42,7 +42,7 @@
 			alt="Imagem da Cynthia"
 		/>
 		<p>{home.description}</p>
-		<ContactButton name={home.button} link="/" />
+		<ContactButton name={home.button} link={contact.link} />
 	</section>
 	<section id="about" class="px-8 py-14">
 		<div
@@ -96,7 +96,7 @@
 			</div>
 			<ContactItems contactItems={contact.socialMedia} />
 			<div class="mt-12" />
-			<ContactButton name={contact.button} link="/" />
+			<ContactButton name={contact.button} link={contact.link} />
 			<img
 				class="my-[60px] h-[407px] object-cover"
 				src={contact.image}
