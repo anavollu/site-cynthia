@@ -35,14 +35,14 @@ export const load = (async () => {
 						description:
 							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
 					},
-					{
-						image:
-							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make_noiva.jpeg',
-						title: 'Maquiagem noiva',
-						price: 'R$400',
-						description:
-							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
-					},
+					// {
+					// 	image:
+					// 		'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make_noiva.jpeg',
+					// 	title: 'Maquiagem noiva',
+					// 	price: 'R$400',
+					// 	description:
+					// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
+					// },
 					{
 						image:
 							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/penteado3.jpg',
