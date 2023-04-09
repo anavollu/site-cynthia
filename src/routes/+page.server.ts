@@ -100,20 +100,25 @@ export const load = (async () => {
 			},
 			contact: {
 				title: 'Contato',
-				socialMedia: {
-					whatsapp: {
-						icon: '',
-						phone: '(21) 98280-0111'
+				socialMedia: [
+					{
+						title: 'whatsapp',
+						icon: 'https://raw.githubusercontent.com/anavollu/site-cynthia/c4cc42f8c9653b63a3ea0d54da359a1d75cfce6e/src/lib/assets/whatsapp-icon.svg',
+						contact: '(21) 98280-0111'
 					},
-					instagram: {
-						icon: '',
-						user: '@cynthiavollumakeup'
+					{
+						title: 'instagram',
+						icon: 'https://raw.githubusercontent.com/anavollu/site-cynthia/c4cc42f8c9653b63a3ea0d54da359a1d75cfce6e/src/lib/assets/instagram-icon.svg',
+						contact: '@cynthiavollumakeup'
 					},
-					email: {
-						icon: '',
-						email: 'contatocynthiavollu@gmail.com'
+					{
+						title: 'email',
+						icon: 'https://raw.githubusercontent.com/anavollu/site-cynthia/c4cc42f8c9653b63a3ea0d54da359a1d75cfce6e/src/lib/assets/email-icon.svg',
+						contact: 'contatocynthiavollu@gmail.com'
 					}
-				},
+				],
+				image:
+					'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/contato-img.jpg',
 				button: 'Agendar horário'
 			},
 			footer: {

@@ -7,6 +7,8 @@
 	import imageAbout from '$lib/assets/cynthia-about.jpg';
 	import ServicesCard from './services-card.svelte';
 	import WorksCard from './works-card.svelte';
+	import ContactItems from './contact-items.svelte';
+	import ContactButton from './contact-button.svelte';
 
 	export let data: PageData;
 	const header = data.data.header;
@@ -40,17 +42,14 @@
 			alt="Imagem da Cynthia"
 		/>
 		<p>{home.description}</p>
-		<button
-			class="rounded-[15px] bg-darkgreen px-[25px] py-4 text-sm font-semibold leading-[17.07px] text-white"
-			>{home.button}</button
-		>
+		<ContactButton name={home.button} link="/" />
 	</section>
 	<section id="about" class="px-8 py-14">
 		<div
 			class="flex flex-col gap-9 bg-white px-5 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
 		"
 		>
-			<p class="text-xl font-semibold leading-[24.48px]">{about.title}</p>
+			<p class="text-xl font-semibold uppercase leading-[24.48px]">{about.title}</p>
 			<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
 			<div class="px-10">
 				<img
@@ -85,6 +84,25 @@
 			<WorksCard worksItems={works.worksItems} />
 		</div>
 	</section>
-	<section id="contact">contato</section>
+	<section id="contact" class="mb-[72px] px-8">
+		<div
+			class="flex flex-col bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+	"
+		>
+			<div class="mb-10 w-max bg-gradient-to-r from-pink-50 to-pink-100 pb-[3px]">
+				<div class="bg-white pb-1 text-xl font-semibold uppercase leading-[24.48px]">
+					{contact.title}
+				</div>
+			</div>
+			<ContactItems contactItems={contact.socialMedia} />
+			<div class="mt-12" />
+			<ContactButton name={contact.button} link="/" />
+			<img
+				class="my-[60px] h-[407px] object-cover"
+				src={contact.image}
+				alt="Imagem Cynthia maquiando modelo"
+			/>
+		</div>
+	</section>
 	<div id="footer">footer</div>
 </main>
