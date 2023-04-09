@@ -55,40 +55,48 @@ export const load = (async () => {
 			},
 			works: {
 				title: 'Meus trabalhos',
-				worksItems: {
-					one: {
-						image: '',
+				worksItems: [
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make1.jpg',
 						title: 'Maquiagem casual'
 					},
-					two: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/penteado4.jpg',
 						title: 'Penteado'
 					},
-					three: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make11.jpg',
 						title: 'Maquiagem casual'
 					},
-					four: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make9.jpg',
 						title: 'Maquiagem casual'
 					},
-					five: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/penteado2.jpg',
 						title: 'Penteado'
 					},
-					six: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make4.jpg',
 						title: 'Maquiagem casual'
 					},
-					seven: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make12.jpeg',
 						title: 'Maquiagem casual'
 					},
-					eight: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/penteado3.jpg',
 						title: 'Penteado'
 					}
-				}
+				]
 			},
 			contact: {
 				title: 'Contato',

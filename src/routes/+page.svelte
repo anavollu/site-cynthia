@@ -6,6 +6,7 @@
 	import imageHome from '$lib/assets/cynthia-home.jpeg';
 	import imageAbout from '$lib/assets/cynthia-about.jpg';
 	import ServicesCard from './services-card.svelte';
+	import WorksCard from './works-card.svelte';
 
 	export let data: PageData;
 	const header = data.data.header;
@@ -76,7 +77,14 @@
 		</div>
 		<div class="h-16 bg-pink-30" />
 	</section>
-	<section id="works">meus trabalhos</section>
+	<section id="works" class="px-8 pb-[60px] pt-14">
+		<p class="mb-10 text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
+			{works.title}
+		</p>
+		<div class="flex flex-col gap-10">
+			<WorksCard worksItems={works.worksItems} />
+		</div>
+	</section>
 	<section id="contact">contato</section>
 	<div id="footer">footer</div>
 </main>
