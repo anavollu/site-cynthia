@@ -104,5 +104,11 @@
 			/>
 		</div>
 	</section>
-	<div id="footer">footer</div>
+	<div id="footer">
+		<div
+			class="flex h-[90px] items-center justify-center bg-gradient-to-r from-pink-30 to-pink-50 font-poppins leading-[21.82px] text-white"
+		>
+			<a href={footer.link} target="_blank">{footer.description}</a>
+		</div>
+	</div>
 </main>
