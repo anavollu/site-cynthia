@@ -70,8 +70,8 @@
 				</p>
 				<p class="text-sm leading-[17.07px] text-gray">{services.description}</p>
 			</div>
-			<div class="mt-10">
-				<ServicesCard items={services.servicesItems} />
+			<div class="mt-10 flex flex-col gap-[60px]">
+				<ServicesCard servicesItems={services.servicesItems} />
 			</div>
 		</div>
 		<div class="h-16 bg-pink-30" />

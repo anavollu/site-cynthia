@@ -26,29 +26,32 @@ export const load = (async () => {
 				title: 'Serviços',
 				subtitle: 'Make | Cabelo',
 				description: 'Atendimento a domicílio em Niterói e Rio de Janeiro',
-				servicesItems: {
-					one: {
-						image: '',
+				servicesItems: [
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make2.jpg',
 						title: 'Maquiagem casual',
 						price: 'R$250',
 						description:
 							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
 					},
-					two: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/make_noiva.jpeg',
 						title: 'Maquiagem noiva',
 						price: 'R$400',
 						description:
 							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
 					},
-					three: {
-						image: '',
+					{
+						image:
+							'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/penteado3.jpg',
 						title: 'Penteado',
 						price: 'R$250',
 						description:
 							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
 					}
-				}
+				]
 			},
 			works: {
 				title: 'Meus trabalhos',

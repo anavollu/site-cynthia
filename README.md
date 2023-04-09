@@ -13,7 +13,7 @@
 - [ ] Fazer header
 - [ ] Fazer home
 - [x] Fazer sobre mim
-- [ ] Fazer serviços
+- [x] Fazer serviços
 - [ ] Fazer meus trabalhos
 - [ ] Fazer contato
 - [ ] Fazer footer
