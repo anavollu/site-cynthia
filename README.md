@@ -11,12 +11,12 @@
 ## <img src="https://cdn-icons-png.flaticon.com/24/2666/2666505.png" width="20" /> Checklist
 
 - [ ] Fazer header
-- [ ] Fazer home
+- [x] Fazer home
 - [x] Fazer sobre mim
 - [x] Fazer serviços
-- [ ] Fazer meus trabalhos
-- [ ] Fazer contato
-- [ ] Fazer footer
+- [x] Fazer meus trabalhos
+- [x] Fazer contato
+- [x] Fazer footer
 - [ ] Fazer responsividade desktop/tablet
 
 </br>
