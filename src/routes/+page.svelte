@@ -45,7 +45,7 @@
 		<p>{home.description}</p>
 		<ContactButton name={home.button} link={contact.link} />
 	</section>
-	<section id="about" class="px-8 py-14">
+	<section id="about" class="scroll-mt-[83.6px] px-8 py-14">
 		<div
 			class="flex flex-col gap-9 bg-white px-5 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
 		"
@@ -61,7 +61,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="services">
+	<section id="services" class="scroll-mt-[83.6px]">
 		<div class="h-16 bg-pink-30" />
 		<div class="px-6 pb-[60px] pt-[46px]">
 			<div class="flex flex-col gap-2">
@@ -77,7 +77,7 @@
 		</div>
 		<div class="h-16 bg-pink-30" />
 	</section>
-	<section id="works" class="px-8 pb-[60px] pt-14">
+	<section id="works" class="scroll-mt-[83.6px] px-8 pb-[60px] pt-14">
 		<p class="mb-10 text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
 			{works.title}
 		</p>
@@ -85,7 +85,7 @@
 			<WorksCard worksItems={works.worksItems} />
 		</div>
 	</section>
-	<section id="contact" class="mb-[72px] px-8">
+	<section id="contact" class="mb-[72px] scroll-mt-[100px] px-8">
 		<div
 			class="flex flex-col bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
 	"

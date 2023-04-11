@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
 	export let sections: {
 		name: string;
 		path: string;
@@ -8,6 +9,7 @@
 
 {#if menuOpen}
 	<div
+		transition:slide
 		class="absolute left-5 top-[66px] z-10 flex min-w-[174px] flex-col items-center gap-5 rounded-[10px] bg-pink-pastel py-4 font-medium leading-[21.82px]"
 	>
 		{#each sections as { name, path }}
