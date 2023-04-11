@@ -2,13 +2,13 @@
 	import type { PageData } from './$types';
 	import '../app.css';
 
-	import menuIcon from '$lib/assets/menu-icon.svg';
 	import imageHome from '$lib/assets/cynthia-home.jpeg';
 	import imageAbout from '$lib/assets/cynthia-about.jpg';
 	import ServicesCard from './services-card.svelte';
 	import WorksCard from './works-card.svelte';
 	import ContactItems from './contact-items.svelte';
 	import ContactButton from './contact-button.svelte';
+	import Menu from './menu.svelte';
 
 	export let data: PageData;
 	const header = data.data.header;
@@ -18,6 +18,7 @@
 	const works = data.data.works;
 	const contact = data.data.contact;
 	const footer = data.data.footer;
+	const sections = header.sections;
 </script>
 
 <main class="font-montserrat">
@@ -25,7 +26,7 @@
 		id="header"
 		class="sticky top-0 z-10 grid grid-cols-[30px_1fr_30px] items-center bg-pink-7 px-6 py-5"
 	>
-		<img class="left-[27px] h-[30px] w-[30px]" src={menuIcon} alt="Ícone de menu" />
+		<Menu {sections} />
 		<p class="text-center font-crimsonpro text-[32px] leading-[43.65px] tracking-wider">
 			{header.title}
 		</p>

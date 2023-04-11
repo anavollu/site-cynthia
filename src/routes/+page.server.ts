@@ -5,7 +5,13 @@ export const load = (async () => {
 		data: {
 			header: {
 				title: 'Cynthia Vollu',
-				menu: ['Sobre mim', 'Serviços', 'Trabalhos', 'Contato']
+				sections: [
+					{ name: 'Home', path: '#' },
+					{ name: 'Sobre mim', path: '#about' },
+					{ name: 'Serviços', path: '#services' },
+					{ name: 'Trabalhos', path: '#works' },
+					{ name: 'Contato', path: '#contact' }
+				]
 			},
 			home: {
 				title: 'Make e beleza',
