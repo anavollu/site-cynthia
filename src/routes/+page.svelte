@@ -31,40 +31,44 @@
 			{header.title}
 		</p>
 	</div>
-	<section id="home" class="flex flex-col items-center gap-6 bg-pink-7 px-6 py-10">
-		<p
-			class="bg-[url('/src/lib/assets/paint.svg')] bg-center bg-no-repeat px-7 py-1 text-2xl font-bold uppercase leading-[29.26px] tracking-wide"
-		>
-			{home.title}
-		</p>
-		<img
-			class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover"
-			src={imageHome}
-			alt="Imagem da Cynthia"
-		/>
-		<p>{home.description}</p>
-		<ContactButton name={home.button} link={contact.link} />
+	<section id="home" class="bg-pink-7 px-6 py-10">
+		<div class="mx-auto flex max-w-[970px] flex-col items-center gap-6">
+			<p
+				class="bg-[url('/src/lib/assets/paint.svg')] bg-center bg-no-repeat px-7 py-1 text-2xl font-bold uppercase leading-[29.26px] tracking-wide"
+			>
+				{home.title}
+			</p>
+			<img
+				class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover"
+				src={imageHome}
+				alt="Imagem da Cynthia"
+			/>
+			<p>{home.description}</p>
+			<ContactButton name={home.button} link={contact.link} />
+		</div>
 	</section>
-	<section id="about" class="scroll-mt-[83.6px] px-8 py-14">
+	<section id="about" class="scroll-mt-[83.6px] px-6 py-14">
 		<div
-			class="flex flex-col gap-9 bg-white px-5 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+			class="mx-auto flex max-w-[970px] flex-col gap-9 bg-white px-6 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
 		"
 		>
 			<p class="text-xl font-semibold uppercase leading-[24.48px]">{about.title}</p>
-			<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
-			<div class="px-10">
-				<img
-					class="max-h-[527px] min-h-[212px] w-auto self-center rounded-[5px] object-cover"
-					src={imageAbout}
-					alt="Imagem da Cynthia"
-				/>
+			<div class="flex flex-col md:flex-row-reverse">
+				<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
+				<div class="px-10">
+					<img
+						class="max-h-[527px] min-h-[212px] w-auto self-center rounded-[5px] object-cover md:max-h-[337px] md:max-w-[270px]"
+						src={imageAbout}
+						alt="Imagem da Cynthia"
+					/>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section id="services" class="scroll-mt-[83.6px]">
 		<div class="h-16 bg-pink-30" />
 		<div
-			class="mx-auto grid grid-cols-1 px-6 pb-[60px] pt-[46px] lg:flex lg:max-w-[1180px] lg:gap-[72px]"
+			class="mx-auto grid grid-cols-1 px-6 pb-[60px] pt-[46px] md:max-w-[920px] lg:flex lg:max-w-[970px] lg:gap-[72px] lg:px-0"
 		>
 			<div class="flex flex-col gap-2 lg:max-w-[238px]">
 				<p class="uppercase leading-[19.5px] tracking-wide5 text-darkgreen">{services.subtitle}</p>
