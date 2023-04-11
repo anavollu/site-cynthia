@@ -8,8 +8,8 @@
 </script>
 
 {#each servicesItems as item}
-	<div class="flex flex-col">
-		<img class="h-[201px] w-full object-cover" src={item.image} alt="Imagem" />
+	<div class="m-auto flex max-w-[388px] flex-col">
+		<img class="h-[201px] object-cover" src={item.image} alt="Imagem" />
 		<div class="mb-3 mt-6 flex justify-between">
 			<p
 				class="bg-gradient-to-r from-pink-default to-pink-100 bg-clip-text text-xl font-semibold leading-[24.38px] tracking-wide text-transparent"

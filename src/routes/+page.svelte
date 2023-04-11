@@ -63,15 +63,17 @@
 	</section>
 	<section id="services" class="scroll-mt-[83.6px]">
 		<div class="h-16 bg-pink-30" />
-		<div class="px-6 pb-[60px] pt-[46px]">
-			<div class="flex flex-col gap-2">
+		<div
+			class="mx-auto grid grid-cols-1 px-6 pb-[60px] pt-[46px] lg:flex lg:max-w-[1180px] lg:gap-[72px]"
+		>
+			<div class="flex flex-col gap-2 lg:max-w-[238px]">
 				<p class="uppercase leading-[19.5px] tracking-wide5 text-darkgreen">{services.subtitle}</p>
 				<p class="text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
 					{services.title}
 				</p>
 				<p class="text-sm leading-[17.07px] text-gray">{services.description}</p>
 			</div>
-			<div class="mt-10 flex flex-col gap-[60px]">
+			<div class="mt-10 grid grid-cols-1 gap-[60px] md:grid-cols-2 lg:mt-0">
 				<ServicesCard servicesItems={services.servicesItems} />
 			</div>
 		</div>
