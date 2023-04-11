@@ -32,24 +32,35 @@
 		</p>
 	</div>
 	<section id="home" class="bg-pink-7 px-6 py-10">
-		<div class="mx-auto flex max-w-[970px] flex-col items-center gap-6">
-			<p
-				class="bg-[url('/src/lib/assets/paint.svg')] bg-center bg-no-repeat px-7 py-1 text-2xl font-bold uppercase leading-[29.26px] tracking-wide"
-			>
-				{home.title}
-			</p>
-			<img
-				class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover"
-				src={imageHome}
-				alt="Imagem da Cynthia"
-			/>
-			<p>{home.description}</p>
-			<ContactButton name={home.button} link={contact.link} />
+		<div
+			class="mx-auto md:grid md:max-w-[970px] md:grid-cols-[450px_1fr] md:gap-8 lg:grid-cols-[600px_1fr] lg:gap-10 xl:max-w-[1170px]"
+		>
+			<div class="flex flex-col items-center gap-6 md:items-start md:justify-evenly">
+				<p
+					class="bg-[url('/src/lib/assets/paint.svg')] bg-center bg-no-repeat px-7 py-1 text-2xl font-bold uppercase leading-[29.26px] tracking-wide md:text-4xl lg:px-5 lg:text-4xl"
+				>
+					{home.title}
+				</p>
+				<img
+					class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover md:hidden"
+					src={imageHome}
+					alt="Imagem da Cynthia"
+				/>
+				<p class="md:text-lg">{home.description}</p>
+				<ContactButton name={home.button} link={contact.link} />
+			</div>
+			<div class="flex justify-center">
+				<img
+					class="hidden w-full rounded-full bg-darkgreen object-cover md:inline md:max-h-[300px] md:max-w-[300px]"
+					src={imageHome}
+					alt="Imagem da Cynthia"
+				/>
+			</div>
 		</div>
 	</section>
 	<section id="about" class="scroll-mt-[83.6px] px-6 py-14">
 		<div
-			class="mx-auto flex max-w-[970px] flex-col gap-9 bg-white px-6 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+			class="mx-auto flex flex-col gap-9 bg-white px-6 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)] md:max-w-[970px] xl:max-w-[1170px]
 		"
 		>
 			<p class="text-xl font-semibold uppercase leading-[24.48px]">{about.title}</p>
@@ -68,7 +79,7 @@
 	<section id="services" class="scroll-mt-[83.6px]">
 		<div class="h-16 bg-pink-30" />
 		<div
-			class="mx-auto grid grid-cols-1 px-6 pb-[60px] pt-[46px] md:max-w-[920px] lg:flex lg:max-w-[970px] lg:gap-[72px] lg:px-0"
+			class="mx-auto grid grid-cols-1 px-6 pb-[60px] pt-[46px] md:max-w-[970px] lg:flex lg:gap-[72px] lg:px-0 xl:max-w-[1170px]"
 		>
 			<div class="flex flex-col gap-2 lg:max-w-[238px]">
 				<p class="uppercase leading-[19.5px] tracking-wide5 text-darkgreen">{services.subtitle}</p>
