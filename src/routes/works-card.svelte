@@ -8,7 +8,7 @@
 {#each worksItems as item}
 	<div class="flex flex-col gap-4 border-b-[1px] border-b-gray">
 		<img
-			class="max-h-[302.94px] w-full object-cover"
+			class="max-h-[302.94px] w-full object-cover lg:max-h-[210px] xl:max-h-[263px]"
 			src={item.image}
 			alt="Imagem de {item.title}"
 		/>

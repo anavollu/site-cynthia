@@ -60,15 +60,15 @@
 	</section>
 	<section id="about" class="scroll-mt-[83.6px] px-6 py-14">
 		<div
-			class="mx-auto flex flex-col gap-9 bg-white px-6 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)] md:max-w-[970px] xl:max-w-[1170px]
+			class="mx-auto flex flex-col gap-9 bg-white px-6 pb-9 pt-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)] md:max-w-[970px] lg:px-[63px] lg:py-[47px] xl:max-w-[1170px]
 		"
 		>
 			<p class="text-xl font-semibold uppercase leading-[24.48px]">{about.title}</p>
-			<div class="flex flex-col md:flex-row-reverse">
+			<div class="flex flex-col gap-5 md:flex-row-reverse">
 				<p class="whitespace-pre-line text-justify font-poppins text-gray">{about.description}</p>
-				<div class="px-10">
+				<div class="flex justify-center">
 					<img
-						class="max-h-[527px] min-h-[212px] w-auto self-center rounded-[5px] object-cover md:max-h-[337px] md:max-w-[270px]"
+						class="max-h-[500px] min-h-[250px] w-full rounded-[5px] object-cover md:max-h-[250px] md:w-auto md:max-w-[200px] xl:max-h-[337px] xl:max-w-[270px]"
 						src={imageAbout}
 						alt="Imagem da Cynthia"
 					/>
@@ -99,14 +99,14 @@
 			<p class="mb-10 text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
 				{works.title}
 			</p>
-			<div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+			<div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
 				<WorksCard worksItems={works.worksItems} />
 			</div>
 		</div>
 	</section>
 	<section id="contact" class="mb-[72px] scroll-mt-[100px] px-8">
 		<div
-			class="flex flex-col bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)]
+			class="mx-auto flex flex-col bg-white px-5 py-7 tracking-wide drop-shadow-[0_8px_30px_rgba(38,38,38,0.15)] md:max-w-[970px] lg:px-[63px] lg:py-[47px] xl:max-w-[1170px]
 	"
 		>
 			<div class="mb-10 w-max bg-gradient-to-r from-pink-50 to-pink-100 pb-[3px]">
@@ -114,14 +114,19 @@
 					{contact.title}
 				</div>
 			</div>
-			<ContactItems contactItems={contact.socialMedia} />
-			<div class="mt-12" />
-			<ContactButton name={contact.button} link={contact.link} />
-			<img
-				class="my-[60px] h-[407px] object-cover"
-				src={contact.image}
-				alt="Imagem Cynthia maquiando modelo"
-			/>
+			<div class="grid grid-cols-1 lg:grid-cols-2">
+				<div class="flex flex-col justify-between">
+					<ContactItems contactItems={contact.socialMedia} />
+					<div class="mt-12 flex justify-center">
+						<ContactButton name={contact.button} link={contact.link} />
+					</div>
+				</div>
+				<img
+					class="my-[60px] h-[407px] w-auto object-cover lg:my-0 lg:place-self-center"
+					src={contact.image}
+					alt="Imagem Cynthia maquiando modelo"
+				/>
+			</div>
 		</div>
 	</section>
 	<div id="footer">
