@@ -25,6 +25,7 @@
 
 - [ ] Diminuir tamanho das imagens (ver vite imagetools)
 - [ ] Incluir zoom nas imagens ao clicar
+- [ ] Alterar favicon
 
 </br>
 
