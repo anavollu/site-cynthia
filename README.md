@@ -1,6 +1,6 @@
 # Currículo
 
-## <img src="https://cdn-icons-png.flaticon.com/24/595/595067.png" width="20" /> Em andamento <img src="https://cdn-icons-png.flaticon.com/24/595/595067.png" width="20" />
+## Concluído <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" width="20" />
 
 </br>
 
@@ -10,14 +10,21 @@
 
 ## <img src="https://cdn-icons-png.flaticon.com/24/2666/2666505.png" width="20" /> Checklist
 
-- [ ] Fazer header
+- [x] Fazer header
 - [x] Fazer home
 - [x] Fazer sobre mim
 - [x] Fazer serviços
 - [x] Fazer meus trabalhos
 - [x] Fazer contato
 - [x] Fazer footer
-- [ ] Fazer responsividade desktop/tablet
+- [x] Fazer responsividade desktop/tablet
+
+</br>
+
+## <img src="https://cdn-icons-png.flaticon.com/512/3930/3930474.png" width="20" /> Melhorias
+
+- [ ] Diminuir tamanho das imagens (ver vite imagetools)
+- [ ] Incluir zoom nas imagens ao clicar
 
 </br>
 
@@ -37,6 +44,11 @@ Layout pode ser encontrado no [Figma](https://www.figma.com/file/9lUb0kqCM9ijs5D
 Mobile (print da aplicação)
 </br>
 <img src="https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/pagina_mobile.png" width="200">
+</br>
+
+Desktop (print da aplicação)
+</br>
+<img src="https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/pagina_desktop.png" width="400">
 
 </br>
 
