@@ -95,11 +95,13 @@
 		<div class="h-16 bg-pink-30" />
 	</section>
 	<section id="works" class="scroll-mt-[83.6px] px-8 pb-[60px] pt-14">
-		<p class="mb-10 text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
-			{works.title}
-		</p>
-		<div class="flex flex-col gap-10">
-			<WorksCard worksItems={works.worksItems} />
+		<div class="mx-auto flex flex-col md:max-w-[970px] xl:max-w-[1170px]">
+			<p class="mb-10 text-xl font-semibold uppercase leading-[24.38px] tracking-wide">
+				{works.title}
+			</p>
+			<div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+				<WorksCard worksItems={works.worksItems} />
+			</div>
 		</div>
 	</section>
 	<section id="contact" class="mb-[72px] scroll-mt-[100px] px-8">
