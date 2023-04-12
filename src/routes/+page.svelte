@@ -22,14 +22,17 @@
 </script>
 
 <main class="font-montserrat">
-	<div
-		id="header"
-		class="sticky top-0 z-10 grid grid-cols-[30px_1fr_30px] items-center bg-pink-7 px-6 py-5"
-	>
-		<Menu {sections} />
-		<p class="text-center font-crimsonpro text-[32px] leading-[43.65px] tracking-wider">
-			{header.title}
-		</p>
+	<div id="header" class="sticky top-0 z-10 bg-pink-7">
+		<div
+			class="m-auto grid grid-cols-[30px_1fr_30px] items-center whitespace-nowrap px-6 py-5 md:max-w-[970px] xl:max-w-[1170px]"
+		>
+			<Menu {sections} />
+			<p
+				class="text-center font-crimsonpro text-[28px] leading-[43.65px] tracking-wider sm:text-[32px]"
+			>
+				{header.title}
+			</p>
+		</div>
 	</div>
 	<section id="home" class="bg-pink-7 px-6 py-10">
 		<div

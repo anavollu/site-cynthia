@@ -14,6 +14,6 @@
 		menuOpen = !menuOpen;
 	}}
 >
-	<img class="left-[27px] h-[30px] w-[30px]" src={menuIcon} alt="Ícone de menu" />
+	<img class="left-[27px] h-5 w-5 sm:h-[30px] sm:w-[30px]" src={menuIcon} alt="Ícone de menu" />
 </button>
 <MenuItems {sections} bind:menuOpen />
