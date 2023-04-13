@@ -2,8 +2,6 @@
 	import type { PageData } from './$types';
 	import '../app.css';
 
-	import imageHome from '$lib/assets/cynthia-home.jpeg';
-	import imageAbout from '$lib/assets/cynthia-about.jpg';
 	import ServicesCard from './services-card.svelte';
 	import WorksCard from './works-card.svelte';
 	import ContactItems from './contact-items.svelte';
@@ -46,7 +44,7 @@
 				</p>
 				<img
 					class="h-[194px] w-[194px] rounded-full bg-darkgreen object-cover md:hidden"
-					src={imageHome}
+					src={home.image}
 					alt="Imagem da Cynthia"
 				/>
 				<p class="md:text-lg">{home.description}</p>
@@ -55,7 +53,7 @@
 			<div class="flex justify-center">
 				<img
 					class="hidden w-full rounded-full bg-darkgreen object-cover md:inline md:max-h-[300px] md:max-w-[300px]"
-					src={imageHome}
+					src={home.image}
 					alt="Imagem da Cynthia"
 				/>
 			</div>
@@ -72,7 +70,7 @@
 				<div class="flex justify-center">
 					<img
 						class="max-h-[500px] min-h-[250px] w-full rounded-[5px] object-cover md:max-h-[250px] md:w-auto md:max-w-[200px] xl:max-h-[337px] xl:max-w-[270px]"
-						src={imageAbout}
+						src={about.image}
 						alt="Imagem da Cynthia"
 					/>
 				</div>

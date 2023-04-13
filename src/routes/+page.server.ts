@@ -16,17 +16,20 @@ export const load = (async () => {
 			home: {
 				title: 'Make e beleza',
 				description:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit enim donec semper pellentesque vitae. Cras ac fringilla suspendisse mi velit quis. Odio eu posuere.',
+					'Descubra o mundo da beleza com uma maquiadora e hair stylist profissional que oferece uma experiência personalizada para elevar sua autoestima.',
 				button: 'Agendar horário',
-				image: '',
-				bgImage: ''
+				image:
+					'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/cynthia-home.jpeg'
 			},
 			about: {
 				title: 'Sobre mim',
-				description: `Hi. I’m Thania Certified Pro Artistic Makeup Lasalle College International. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla sagittis eget semper semper. Euismod facilisi tristique duis maecenas id id.
-					
-				Cum ipsum, pellentesque volutpat id. Proin augue nunc, aliquet vel suspendisse non consequat dignissim tempus. Nibh etiam vitae, cum fusce eget. Amet donec pellentesque lorem integer duis bibendum bibendum ac imperdiet.`,
-				image: ''
+				description: `Oi, me chamo Cynthia Vollu! Desde pequena, eu sempre amei brincar com maquiagem e cabelo, e essa paixão me levou a seguir uma carreira como maquiadora profissional e hair stylist. Ao longo dos anos, me especializei em diversos cursos de maquiagem e penteado, aprendendo as melhores técnicas para realçar a beleza natural de cada pessoa.
+
+				Além disso, sempre me preocupo em usar apenas produtos de qualidade em meus trabalhos, para garantir que o resultado seja impecável e duradouro. Cada rosto e cabelo tem características únicas, e é por isso que acredito que a personalização é fundamental na hora de criar um visual. Assim, sempre converso com meus clientes para entender suas preferências e necessidades, e crio um look que realce sua beleza natural e a faça se sentir confiante e bonita.
+				
+				Seja para um casamento, formatura, ensaio fotográfico ou simplesmente para um dia especial, estou aqui para ajudá-lo(a) a se sentir incrível. Entre em contato comigo e vamos criar juntos um visual que reflita sua personalidade e estilo!`,
+				image:
+					'https://raw.githubusercontent.com/anavollu/site-cynthia/main/figma-images/cynthia-about.jpg'
 			},
 			services: {
 				title: 'Serviços',
@@ -39,7 +42,7 @@ export const load = (async () => {
 						title: 'Maquiagem casual',
 						price: 'R$250',
 						description:
-							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
+							'Uma maquiagem que realça a beleza natural é a chave para se sentir confiante e bonita em qualquer ocasião.'
 					},
 					// {
 					// 	image:
@@ -47,7 +50,7 @@ export const load = (async () => {
 					// 	title: 'Maquiagem noiva',
 					// 	price: 'R$400',
 					// 	description:
-					// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
+					// 		'A maquiagem da noiva deve realçar sua beleza natural e transmitir toda a emoção e felicidade deste dia tão especial.'
 					// },
 					{
 						image:
@@ -55,7 +58,7 @@ export const load = (async () => {
 						title: 'Penteado',
 						price: 'R$250',
 						description:
-							'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas felis, in aliquam.'
+							'Um penteado bem feito é capaz de transformar qualquer visual e deixar você pronta para arrasar em qualquer ocasião.'
 					}
 				]
 			},
